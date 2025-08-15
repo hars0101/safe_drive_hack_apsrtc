@@ -1,0 +1,2076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeDrive Hack 2025 | Driver Safety Innovation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- General & Variables --- */
+        :root {
+            --primary-purple: #6a0dad;
+            --secondary-purple: #8a2be2;
+            --light-purple: #b19cd9;
+            --primary-orange: #ff8c00;
+            --secondary-orange: #ffa500;
+            --light-orange: #ffd699;
+            --dark-bg: #0a0419;
+            --card-bg: rgba(30, 15, 55, 0.7);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #1c0b36 100%);
+            color: #f0f0f0;
+            overflow-x: hidden;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+        
+        /* Custom Scrollbar for a more stylized look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(30, 15, 55, 0.5);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-purple);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary-purple);
+        }
+
+        /* --- Animations --- */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes glowing-border {
+            0% { border: 2px solid rgba(255, 140, 0, 0.5); }
+            50% { border: 2px solid rgba(255, 140, 0, 1); }
+            100% { border: 2px solid rgba(255, 140, 0, 0.5); }
+        }
+
+        /* --- NEW Hero Section Styling --- */
+        .hero-section-new {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 1rem;
+            background: url('https://images.unsplash.com/photo-1556910398-75176c125746?q=80&w=1920&auto=format&fit=crop') no-repeat center center/cover;
+        }
+        .hero-section-new::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(106, 13, 173, 0.7);
+            z-index: 1;
+        }
+        .hero-content-new {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 1000px;
+            color: #fff;
+            text-align: center;
+        }
+        .logo-new {
+            margin-bottom: 25px;
+            border-radius: 50%;
+            padding: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            background: transparent;
+            border: none;
+            animation: none;
+        }
+        .logo-new img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            transition: all 0.3s ease;
+        }
+        .logo-new:hover {
+            transform: scale(1.05);
+        }
+        .event-title-new {
+            font-family: 'Montserrat', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: clamp(1px, 0.5vw, 2px);
+            margin-bottom: 15px;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            background: linear-gradient(to right, #fff 0%, #ffd699 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeIn 1s ease;
+        }
+        .tagline-new {
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            font-weight: 300;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            animation: fadeIn 1.2s ease;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .info-box-new {
+            background: linear-gradient(135deg, rgba(255,140,0,0.9) 0%, rgba(255,165,0,0.9) 100%);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 30px auto;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+            max-width: 900px;
+            color: #fff;
+            backdrop-filter: blur(10px);
+            border: 2px solid transparent;
+            transition: all 0.4s ease;
+        }
+        .info-box-new:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 18px 40px rgba(0,0,0,0.5);
+            animation: glowing-border 2s ease infinite;
+        }
+        .info-box-new h3, .info-box-new h4 {
+            margin-bottom: 0.5rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .info-box-new p {
+            margin-bottom: 0.25rem;
+        }
+        .cta-buttons-new {
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .cta-buttons-new .btn {
+            min-width: 200px;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        .btn-register-new {
+            background: linear-gradient(45deg, var(--primary-orange), var(--secondary-orange));
+            border: none;
+            box-shadow: 0 8px 15px rgba(255, 140, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-register-new::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--primary-purple), var(--secondary-purple));
+            transition: all 0.4s ease;
+            z-index: -1;
+        }
+        .btn-register-new:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+            color: #fff;
+        }
+        .btn-register-new:hover::before {
+            width: 100%;
+        }
+        .btn-view-teams-new {
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: #fff;
+        }
+        .btn-view-teams-new:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: #fff;
+            transform: translateY(-3px);
+        }
+
+        /* --- Other sections remain unchanged --- */
+
+        /* --- Animations on Scroll --- */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .animate-on-scroll.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- Section Titles & Subtitles --- */
+        .section-title {
+            position: relative;
+            margin: 40px 0 30px;
+            text-align: center;
+            font-weight: 700;
+            color: var(--light-orange);
+            font-size: clamp(1.8rem, 3vw, 2.2rem);
+        }
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 5px;
+            background: var(--primary-orange);
+            border-radius: 3px;
+        }
+        .section-subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--light-purple);
+            font-weight: 300;
+            font-size: clamp(0.9rem, 1.5vw, 1rem);
+            padding: 0 15px;
+        }
+
+        /* --- Common Card Styles --- */
+        .common-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .common-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* --- Team Cards --- */
+        .team-card {
+            min-height: 300px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .team-card:before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            transform: scale(0);
+            transition: transform 0.6s ease;
+            z-index: 0;
+        }
+        .team-card:hover {
+            border-color: rgba(255, 140, 0, 0.5);
+            transform: scale(1.02);
+        }
+        .team-card:hover:before {
+            transform: scale(1);
+        }
+        .team-header {
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple));
+            padding: 12px;
+            color: white;
+            word-break: break-word;
+            position: relative;
+            z-index: 1;
+        }
+        .team-header h4 {
+            margin-bottom: 3px;
+            font-size: clamp(1rem, 1.2vw, 1.2rem);
+        }
+        .team-header small {
+            opacity: 0.8;
+            font-size: 0.75rem;
+        }
+        .team-avatar {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        .team-card:hover .team-avatar {
+            transform: rotate(360deg);
+        }
+        .team-problems {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .team-members-list {
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-bottom: 8px;
+        }
+        .team-links {
+            margin-top: 12px;
+        }
+        .team-links .btn {
+            margin-right: 4px;
+            margin-bottom: 4px;
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .badge {
+            padding: 4px 8px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.7rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        .badge:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        /* Custom badge colors */
+        .bg-purple { background: rgba(106, 13, 173, 0.2); color: #b19cd9; border-color: rgba(106, 13, 173, 0.5); }
+        .bg-orange { background: rgba(255, 140, 0, 0.2); color: #ffd699; border-color: rgba(255, 140, 0, 0.5); }
+        .bg-blue { background: rgba(0, 123, 255, 0.2); color: #7ab8ff; border-color: rgba(0, 123, 255, 0.5); }
+        .bg-green { background: rgba(40, 167, 69, 0.2); color: #7ae582; border-color: rgba(40, 167, 69, 0.5); }
+        .bg-red { background: rgba(220, 53, 69, 0.2); color: #ff8a8a; border-color: rgba(220, 53, 69, 0.5); }
+        .bg-indigo { background: rgba(102, 16, 242, 0.2); color: #b399ff; border-color: rgba(102, 16, 242, 0.5); }
+
+        /* --- Problem Cards --- */
+        .problem-card {
+            padding: 20px;
+            border-top: 4px solid var(--primary-purple);
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s ease;
+            height: 100%;
+        }
+        .problem-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            border-top-color: var(--primary-orange);
+            background: rgba(255, 255, 255, 0.08);
+        }
+        .problem-statement {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+        .problem-statement::before {
+            content: "•";
+            color: var(--primary-orange);
+            position: absolute;
+            left: 0;
+            font-size: 1.4rem;
+        }
+
+        /* --- Stats Boxes --- */
+        .stats-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 25px;
+            transition: all 0.4s ease;
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .stats-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        .stats-number {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            color: var(--light-orange);
+            margin: 10px 0;
+            text-shadow: 0 0 15px rgba(255,215,0,0.5);
+        }
+        .stats-label {
+            font-size: 1rem;
+            color: var(--light-purple);
+        }
+
+        /* --- Design Process Cards --- */
+        .design-square {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.4s ease;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+            border-top: 4px solid var(--primary-orange);
+        }
+        .design-square:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        .design-number {
+            display: block;
+            width: 45px;
+            height: 45px;
+            background: var(--primary-purple);
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 45px;
+            font-weight: bold;
+            margin: 0 auto 15px;
+            font-size: 1.2rem;
+            box-shadow: 0 5px 15px rgba(106, 13, 173, 0.4);
+            transition: all 0.3s ease;
+        }
+        .design-square:hover .design-number {
+            transform: scale(1.2);
+            background: var(--primary-orange);
+        }
+
+        /* --- Navigation Tabs --- */
+        .nav-pills {
+            background: rgba(0,0,0,0.2);
+            border-radius: 50px;
+            padding: 5px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .nav-pills .nav-link {
+            color: #fff;
+            border-radius: 50px;
+            padding: 8px 15px;
+            margin: 0 3px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+        .nav-pills .nav-link.active {
+            background: linear-gradient(135deg, var(--primary-orange) 0%, var(--secondary-orange) 100%);
+            box-shadow: 0 5px 15px rgba(255,140,0,0.4);
+        }
+        .nav-pills .nav-link:hover:not(.active) {
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* --- Schedule & Gallery --- */
+        .gallery-day {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+        .gallery-day:hover {
+            background: rgba(255,255,255,0.08);
+        }
+        .gallery-title {
+            color: var(--light-orange);
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            font-size: 1.3rem;
+        }
+        .gallery-img {
+            border-radius: 12px;
+            margin-bottom: 10px;
+            height: 120px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            width: 100%;
+        }
+        .gallery-img:hover {
+            transform: scale(1.03);
+        }
+        .schedule-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            border-left: 4px solid var(--primary-orange);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.4s ease;
+        }
+        .schedule-card:hover {
+            transform: translateX(5px);
+        }
+        .time-slot {
+            font-weight: 600;
+            color: var(--light-orange);
+            margin-bottom: 8px;
+            display: block;
+            font-size: 0.95rem;
+        }
+
+        /* --- NEW Category Card Styling --- */
+        .category-card-new {
+            height: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .category-card-new:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+        }
+        .category-title-new {
+            padding: 1rem;
+            color: white;
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple));
+            position: relative;
+            z-index: 1;
+            margin: 0;
+            border-radius: 12px 12px 0 0;
+        }
+        .mini-team-card {
+            display: block;
+            padding: 10px 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            color: inherit;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+        }
+        .mini-team-card:last-child {
+            border-bottom: none;
+        }
+        .mini-team-card:hover {
+            padding-left: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            color: #fff;
+        }
+        .mini-team-card h6 {
+            margin-bottom: 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* --- Footer --- */
+        .footer {
+            background: linear-gradient(135deg, var(--primary-purple) 0%, #4b0082 100%);
+            color: white;
+            padding: 50px 0 25px;
+            margin-top: 60px;
+            position: relative;
+        }
+        .footer::before {
+            content: "";
+            position: absolute;
+            top: -60px;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www3.org/2000/svg" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="%238a2be2"/><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" fill="%238a2be2"/><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%238a2be2"/></svg>');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        /* --- Animations on Scroll --- */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .animate-on-scroll.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- Media Queries for Responsive Design --- */
+        @media (max-width: 992px) {
+            .hero-section-new { min-height: 550px; }
+            .info-box-new { padding: 1rem; }
+            .team-card { margin-bottom: 15px; }
+            .stats-box { padding: 15px; }
+        }
+        @media (max-width: 768px) {
+            .hero-section-new { min-height: 500px; }
+            .hero-content-new { padding: 15px; }
+            .info-box-new .row > div { margin-bottom: 15px; }
+            .countdown-box { padding: 10px; }
+            .gallery-img { height: 100px; }
+            .footer { padding: 40px 0 20px; }
+            .section-title { margin: 30px 0 20px; }
+            .section-subtitle { margin-bottom: 20px; }
+            .problem-card, .schedule-card, .stats-box { padding: 15px; }
+            .design-square { padding: 15px; }
+            .stats-number { font-size: 1.8rem; }
+            .problem-statement { font-size: 0.85rem; padding-left: 15px; }
+            .problem-statement::before { font-size: 1.2rem; }
+            .footer { padding: 30px 0 15px; }
+            .footer .col-md-4 { margin-bottom: 25px; }
+            .cta-buttons-new .btn { min-width: 150px; padding: 0.8rem 1.5rem; font-size: 0.9rem; }
+        }
+        @media (max-width: 576px) {
+            .hero-section-new { min-height: 450px; padding: 1.5rem 0.5rem; }
+            .event-title-new { font-size: 1.8rem; }
+            .tagline-new { font-size: 1rem; margin-bottom: 20px; }
+            .info-box-new { padding: 1rem; margin: 20px auto; }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .logo-new {
+                width: 100px !important;
+                height: 100px !important;
+            }
+        }
+        @media (max-width: 576px) {
+            .logo-new {
+                width: 80px !important;
+                height: 80px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NEW HERO SECTION -->
+    <header class="hero-section-new">
+        <div class="hero-content-new">
+            <div class="logo-new ">
+                <img src="./src/diet_logo.png">
+            </div>
+            <h1 class="event-title-new">SafeDrive Hack 2025</h1>
+            <p class="tagline-new">Emphasizing Safety and Innovation in Driver Monitoring Systems</p>
+            
+            <div class="info-box-new">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h4><i class="fas fa-calendar-alt me-2"></i>Dates</h4>
+                        <p>August 11-14, 2025</p>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h4><i class="fas fa-map-marker-alt me-2"></i>Venue</h4>
+                        <p>DIET Library</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4><i class="fas fa-users me-2"></i>Stats</h4>
+                        <p>33 Teams | 99 Participants</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-buttons-new">
+                <button class="btn btn-register-new" disabled>Registration Closed</button>
+                <a href="#teams" class="btn btn-view-teams-new btn-lg">
+                    <i class="fas fa-users me-2"></i>View Participating Teams
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container py-5">
+            <!-- Statistics Section -->
+            <section class="py-5" aria-label="Hackathon Statistics">
+                <div class="row text-center">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stats-box animate-on-scroll">
+                            <i class="fas fa-users fa-2x" style="color: var(--light-purple);"></i>
+                            <div class="stats-number">33</div>
+                            <div class="stats-label">Teams</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stats-box animate-on-scroll">
+                            <i class="fas fa-user-friends fa-2x" style="color: var(--light-purple);"></i>
+                            <div class="stats-number">99</div>
+                            <div class="stats-label">Participants</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stats-box animate-on-scroll">
+                            <i class="fas fa-lightbulb fa-2x" style="color: var(--light-purple);"></i>
+                            <div class="stats-number">12</div>
+                            <div class="stats-label">Problem Statements</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="stats-box animate-on-scroll">
+                            <i class="fas fa-trophy fa-2x" style="color: var(--light-purple);"></i>
+                            <div class="stats-number">5</div>
+                            <div class="stats-label">Prize Categories</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- About Section with Tabs -->
+            <section id="about" class="py-5" aria-label="About the Hackathon">
+                <h2 class="section-title animate-on-scroll">About the Hackathon</h2>
+                <p class="section-subtitle animate-on-scroll">Innovating for safer roads through advanced driver monitoring systems</p>
+                <ul class="nav nav-pills justify-content-center mb-5" id="aboutTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="objective-tab" data-bs-toggle="tab" data-bs-target="#objective" type="button" role="tab" aria-controls="objective" aria-selected="true">Objective</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="prizes-tab" data-bs-toggle="tab" data-bs-target="#prizes" type="button" role="tab" aria-controls="prizes" aria-selected="false">Prizes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="scope-tab" data-bs-toggle="tab" data-bs-target="#scope" type="button" role="tab" aria-controls="scope" aria-selected="false">Scope</button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="objective" role="tabpanel" aria-labelledby="objective-tab">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="problem-card animate-on-scroll">
+                                    <h3 class="mb-4" style="color: var(--light-orange);"><i class="fas fa-bullseye me-2"></i>Objective </h3>
+                                    <p>SafeDrive Hack 2025 challenges participants to develop innovative solutions for driver monitoring systems that enhance road safety. Using AI, computer vision, and sensor technologies, teams will create systems to detect and alert for various driver behaviors and road conditions.</p>
+                                    <p class="mb-0">Our mission is to reduce road accidents by 30% through technological innovation and collaboration between students, industry experts, and transportation authorities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="prizes" role="tabpanel" aria-labelledby="prizes-tab">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="problem-card animate-on-scroll">
+                                    <h3 class="mb-4" style="color: var(--light-orange);"><i class="fas fa-trophy me-2"></i>Prizes & Sponsorship</h3>
+                                    <p>Sponsored by DIET-Technology Business Incubator, the hackathon offers exciting prizes for the most innovative and effective solutions. Winners will receive cash prizes, incubation opportunities, and industry recognition.</p>
+                                    <div class="row mt-4 text-center">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="p-3 bg-dark-subtle rounded-3">
+                                                <i class="fas fa-medal fa-2x mb-3" style="color: gold;"></i>
+                                                <h5>1st Prize</h5>
+                                                <p class="mb-0">₹50,000 + Incubation</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="p-3 bg-dark-subtle rounded-3">
+                                                <i class="fas fa-medal fa-2x mb-3" style="color: silver;"></i>
+                                                <h5>2nd Prize</h5>
+                                                <p class="mb-0">₹30,000 + Mentorship</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="p-3 bg-dark-subtle rounded-3">
+                                                <i class="fas fa-medal fa-2x mb-3" style="color: #cd7f32;"></i>
+                                                <h5>3rd Prize</h5>
+                                                <p class="mb-0">₹20,000 + Resources</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="scope" role="tabpanel" aria-labelledby="scope-tab">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="problem-card animate-on-scroll">
+                                    <h3 class="mb-4" style="color: var(--light-orange);"><i class="fas fa-road me-2"></i>Scope & Impact</h3>
+                                    <p>Solutions developed during the hackathon will be evaluated for real-world implementation in public transportation systems. The APSRTC has expressed interest in adopting the most promising technologies to enhance driver safety across their fleet.</p>
+                                    <p class="mb-0">Winning teams will have the opportunity to work with transportation authorities to refine and deploy their solutions, making a tangible impact on road safety across the region.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Problem Statements Section -->
+            <section id="problems" class="py-5" aria-label="Problem Statements">
+                <h2 class="section-title animate-on-scroll">Problem Statements</h2>
+                <p class="section-subtitle animate-on-scroll">Teams will tackle these critical challenges in driver safety</p>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="problem-card animate-on-scroll">
+                            <h4 class="mb-3" style="color: var(--light-orange);"><i class="fas fa-bed me-2"></i>Driver Alertness</h4>
+                            <div class="problem-statement">Drowsiness alert</div>
+                            <div class="problem-statement">Yawning alert</div>
+                            <div class="problem-statement">Driver distraction alert</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="problem-card animate-on-scroll">
+                            <h4 class="mb-3" style="color: var(--light-orange);"><i class="fas fa-mobile-alt me-2"></i>Substance & Device</h4>
+                            <div class="problem-statement">Cell phone usage alert</div>
+                            <div class="problem-statement">Breath alcohol detection</div>
+                            <div class="problem-statement">Smoking alert</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="problem-card animate-on-scroll">
+                            <h4 class="mb-3" style="color: var(--light-orange);"><i class="fas fa-car-crash me-2"></i>Road Safety</h4>
+                            <div class="problem-statement">Forward collision alert</div>
+                            <div class="problem-statement">Sudden braking alert</div>
+                            <div class="problem-statement">Over-speeding alert</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="problem-card animate-on-scroll">
+                            <h4 class="mb-3" style="color: var(--light-orange);"><i class="fas fa-car me-2"></i>Vehicle Operations</h4>
+                            <div class="problem-statement">Camera blocking alert</div>
+                            <div class="problem-statement">Lane switching alert</div>
+                            <div class="problem-statement">Harsh turning alert</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Design Process Section -->
+            <section id="process" class="py-5" aria-label="Design Thinking Process">
+                <h2 class="section-title animate-on-scroll">Design Thinking Process</h2>
+                <p class="section-subtitle animate-on-scroll">Our structured approach to innovation and problem-solving</p>
+                <div class="row g-4">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">1</span>
+                            <h4 class="text-white">EMPATHIZE</h4>
+                            <p class="mb-0">Understand users' needs and challenges through observation and engagement</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">2</span>
+                            <h4 class="text-white">DEFINE</h4>
+                            <p class="mb-0">Clearly articulate the problem based on insights gathered during empathy phase</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">3</span>
+                            <h4 class="text-white">IDEATE</h4>
+                            <p class="mb-0">Generate a wide range of creative solutions through brainstorming and collaboration</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">4</span>
+                            <h4 class="text-white">PROTOTYPE</h4>
+                            <p class="mb-0">Build tangible representations of ideas to explore potential solutions</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">5</span>
+                            <h4 class="text-white">TEST</h4>
+                            <p class="mb-0">Evaluate prototypes with users, gather feedback, and refine solutions</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="design-square animate-on-scroll">
+                            <span class="design-number">6</span>
+                            <h4 class="text-white">IMPLEMENT</h4>
+                            <p class="mb-0">Develop final solution and prepare for real-world deployment</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Participating Teams Section -->
+            <section id="teams" class="py-5" aria-label="Participating Teams">
+                <h2 class="section-title">Participating Teams</h2>
+                <p class="section-subtitle">33 innovative teams competing in SafeDrive Hack 2025</p>
+                
+                <ul class="nav nav-pills justify-content-center mb-5" id="teamTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="all-teams-tab" data-bs-toggle="pill" data-bs-target="#all-teams" type="button" role="tab" aria-controls="all-teams" aria-selected="true">All Teams</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="categories-tab" data-bs-toggle="pill" data-bs-target="#categories" type="button" role="tab" aria-controls="categories" aria-selected="false">By Category</button>
+                    </li>
+                </ul>
+                
+                <div class="tab-content" id="teamTabsContent">
+                    <div class="tab-pane fade show active" id="all-teams" role="tabpanel" aria-labelledby="all-teams-tab">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">D-SCAN</h4>
+                                        <small>Driver Scanning</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-secondary">TK</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">T.Krishna Kishore</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Guthi VigneshBabu, Imadabathuni Harsha Venkat
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                            <span class="badge bg-orange">Yawning</span>
+                                            <span class="badge bg-red">Camera Blocking</span>
+                                            <span class="badge bg-blue">Smoking</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Krishnakishore582/D-scan.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/yhpLusACB0MxKOIF216z/?referral_token=sCpVmslnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">DRIVE SAFE</h4>
+                                        <small>Vehicle Operations</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-primary">KS</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">K.Srinivasu</h6>
+                                                <small class="text-danger ">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> K.Mithilesh, K.Reshmaja
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-red">Sudden Braking</span>
+                                            <span class="badge bg-green">Lane Switching</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/MithileshKanumuri17/DriveSmartCrew/tree/main" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://gamma.app/docs/RTC-Bus-Driver-Assistance-System-1br97kx7qmgswwb?mode=doc" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">2ND YEARS OF IT</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-success">SC</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Sai Charan</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> M Dharani, P. Angelist
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                            <span class="badge bg-orange">Distraction</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/SaiCharan19000/Hackathon-2025" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/80RPH3WD0Wnz6ewK35BB/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/file/d/1qRHOd68BXjlBLA6vhTwNTvWWTrqndfbP/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">ALPHA SQUAD</h4>
+                                        <small>Vehicle Operations</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-danger">CG</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ch Geethika</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> S Sathwika, G Guna Sekhar
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-red">Harsh Turning</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/gunasekhar-ggs/team-alpha.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/p/edit/4bdw0wjvvtq8/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">BUG BUSTERS</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-warning">CL</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ch Lokesh Kumar</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Member:</strong> G.Bhargav Ram
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Yawning</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/bhargav-G17/Yawning" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://drive.google.com/file/d/1ggRX-Ud7gd0sMSeI9uyr9pURaQpMsozy/view?usp=sharing" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">CSM - 129</h4>
+                                        <small>Substance Detection</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-info">KA</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">k.Akash</h6>
+                                                <small class="text-danger ">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> S.K. Amin Salam, P.Chaitanya
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-blue">Alcohol Detection</span>
+                                            <span class="badge bg-green">Vehicle Safety</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">FOCUS DRIVEX</h4>
+                                        <small>Driver Distraction</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-secondary">PM</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Phani Sri Morampudi</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Member:</strong> Ahalya Rani Gowra
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Distraction</span>
+                                            <span class="badge bg-green">Speed Monitoring</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/ahalyaranigowra-wq/focusdrivex" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://1drv.ms/p/c/5d59d6ecabb8095b/ERngu8cvr0tEoMgCNfI2pgABO1675D9Tp226lffreCU5nQ?e=DP2M3E" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/file/d/1WSKC3peyvKT0TKLThETy0LW2gbCoZP0R/view?usp=drive_link" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SAFE DRIVE CREW</h4>
+                                        <small>Vehicle Operations</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-primary">RB</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Rishit Borra</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Lalith Ram Chilamakurthy, Sasi Vardhan Ande
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-red">Camera Blocking</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/rishitborra29-commits/git-tuts" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/DV7FwEihLv7SgqTepwNf/?referral_token=TyDeS1lnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/file/d/1pr1DiW0MvHY8j2jecEpg183tfIMoZ5Tg/view?usp=drivesdk" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SAFE PATH CREW</h4>
+                                        <small>Vehicle Operations</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-success">NC</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Navadeep Chaava</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Shiva Kumar Kodeboyina, Kasim Sri Chaithanya
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-red">Camera Blocking</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Baluwebsite/Safepath-crew-" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/iIAzMzbcYr9YRtjLsUh5/?referral_token=uNw-iZlnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/file/d/1pr1DiW0MvHY8j2jecEpg183tfIMoZ5Tg/view?usp=drivesdk" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">IT_SPARKS</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-danger">MV</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">M.Venkata Sai Kumar</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> P.Raja Somesh, Y.Jogeswar Rao
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                            <span class="badge bg-orange">Yawning</span>
+                                            <span class="badge bg-blue">Phone Usage</span>
+                                            <span class="badge bg-red">Camera Blocking</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/sai14367/SAFE_DRIVE" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">CODE VICTA</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-warning">AJ</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">A.Joohi Hanuma</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Member:</strong> D.Kavya
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                            <span class="badge bg-orange">Yawning</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/joohi-hanuma/CodeVicta.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/LR68MMg5wSNui5gYrCmJ/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/drive/folders/1ZJSN2KuagoL-FuJCe6one6QZ71a-Wfxx" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">NEURO DRIVE</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-info">CP</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ch.Punnet Sai</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> A. Adithya, D.Teja, D.Karthikeya
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Adithya4205/NEURO-DRIVE.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/AjX7U4MLrjPSVL7vLN/?referral_token=CI0YVjlnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">NIGHT ALERT</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-secondary">IT</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Illuru Taraka Swathi</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Mudavathu Trisha, Yalamanchili Mrudhula
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                            <span class="badge bg-orange">Yawning</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/trisha75/Drowsiness_Alert" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/7CB1LSO6l445HVrEwxre/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">FAST CREW</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-primary">VK</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Varun Krishna Chamarthi</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Teja Sai Chanapathi, Narendra Bhogadhi
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/6emYMA2x9vyWpNKAqvXj/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">HACK INFINITY</h4>
+                                        <small>Driver Distraction</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-success">CP</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ch Parimala Jyothika</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Ch Hema Sai Sree, D.Vedanvitha
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Distraction</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Hema-ch21/-Driver-distraction-alert-" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://www.canva.com/design/DAGv9m1pjmY/_hyUfBVMEcgJHCSr3D1udQ/edit?utm_content=DAGv9m1pjmY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">THE ACTIONEERS</h4>
+                                        <small>Driver Distraction</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-danger">DD</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">D.Dattathreya chari</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> K.Bhuvan Royal, A.Syam Babu
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Distraction</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Bhuvanroyal414/dist.py.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/OLRj1ZvAGp9tqbRvLCMh/?referral_token=clITahlnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">HACK HUSTLERS</h4>
+                                        <small>Substance Detection</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-warning">CV</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ch Vasanth</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Member:</strong> G.Dhanesh
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-blue">Smoke Alert</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/DHANESHGUDAVALLI/smoke_alert.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/fs3MUZbH3L2B2cwaE4ok/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">DATA DYNAMO</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-primary">DB</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">D.Bharath Sai</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> D.Akhil
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Yawn Detection</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/RbF7g1E4Wob5un6NGFZk/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SAFE PATH INNOVATORS</h4>
+                                        <small>Driver Distraction</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-success">BL</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Bejjipurapu Lakshmi Prasanna</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Palagani Vaishnavi Sri Sai
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Distraction Alert</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/PV23-BTECH/safepathinnovators" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://www.canva.com/design/DAGwCKt0Rp4/UQxm6NOD3yODHMJCk2dC3A/edit?utm_content=DAGwCKt0Rp4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                            <a href="https://drive.google.com/file/d/1yYaMv0YJ6dO4Smyt0f6L8CjTiEkY7Gwd/view?usp=drive_link" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-video"></i> Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SAFE DRIVE INNOVATORS</h4>
+                                        <small>Road Safety</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-danger">AV</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">A Vaishnavi</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> N Sarika
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-green">Forward Collision</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/VaishnaviAyancha/Safedrive-Innovators" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/p/edit/edmotcqu6cui/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SOBAR SENCE</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-warning">GS</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">G.Supriya</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> G.Neha, G.Trushna, B.Sravya sritha
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-purple">Drowsiness</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/supriyaaa24/SoberSense-ADAS.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://chatgpt.com/s/t_689d9de27aec81919d45113b0a5f4e57" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">SPEED SENTINEL</h4>
+                                        <small>Road Safety</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-info">TL</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Team Lead</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Team Members
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-green">Speed Alert</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">ZERO RISK RIDERS</h4>
+                                        <small>Substance Detection</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-secondary">VN</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">V.Nainisha</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> S. Maha Lakshmi, R. Meghana
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-blue">Alcohol Detection</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Nainisha0616/Alcohol-Detection-Project.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">TECH TITANS</h4>
+                                        <small>Driver Alertness</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-primary">NT</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Naga Sai Trinaya Chaluvadi</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Varshini Sanka, Naga Sai Mahitha Potluri
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Yawn Detection</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Varshini-rupa/ADAS-PROJECT-.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/GmQh8T1aSLXqvOOiq40b/" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">TEAM TECHNOPHILES</h4>
+                                        <small>Vehicle Operations</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-danger">GA</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">G.Arunika</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> A.Swetha
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-red">Camera Blocking</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/Arunika7/Camera_Blocking_Alert" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://prezi.com/view/TPViQJ2xIGsUBEStYJoB/?referral_token=hMW6jllnB3FN" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">VISIONOPS</h4>
+                                        <small>Driver Distraction</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-warning">TK</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">T.Kundana Reddy</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Md. Arif, M. Lakshman
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-orange">Distraction Alert</span>
+                                            <span class="badge bg-blue">Phone Usage</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="https://github.com/kundanareddy2830/driver-distraction.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="https://gamma.app/docs/A-Unified-Vision-System-for-Advanced-Driver-Safety-iqpp80i6ajtyd3a" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col">
+                                <div class="team-card h-100">
+                                    <div class="team-header">
+                                        <h4 class="mb-0">HACKTIVATORS</h4>
+                                        <small>Substance Detection</small>
+                                    </div>
+                                    <div class="p-4">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="flex-shrink-0">
+                                                <div class="team-avatar bg-info">GT</div>
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+                                                <h6 class="mb-0">Ganta Tejaswini</h6>
+                                                <small class="text-danger">Team Lead</small>
+                                            </div>
+                                        </div>
+                                        <div class="team-members-list">
+                                            <strong>Members:</strong> Jameela, D.Mounika
+                                        </div>
+                                        <div class="team-problems">
+                                            <span class="badge bg-blue">Smoke Alert</span>
+                                        </div>
+                                        <div class="team-links">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-light"><i class="fas fa-file-powerpoint"></i> PPT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="categories" role="tabpanel" aria-labelledby="categories-tab">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="category-card-new common-card">
+                                    <h4 class="category-title-new"><i class="fas fa-bed me-2"></i> Driver Alertness</h4>
+                                    <div class="p-3">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#teams" class="mini-team-card"><h6>2ND YEARS OF IT</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>IT_SPARKS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>CODE VICTA</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>NEURO DRIVE</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>NIGHT ALERT</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>FAST CREW</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SOBAR SENCE</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>DATA DYNAMO</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>TECH TITANS</h6></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="category-card-new common-card">
+                                    <h4 class="category-title-new"><i class="fas fa-car-crash me-2"></i> Road Safety</h4>
+                                    <div class="p-3">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#teams" class="mini-team-card"><h6>DRIVE SAFE</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SAFE DRIVE INNOVATORS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SPEED SENTINEL</h6></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="category-card-new common-card">
+                                    <h4 class="category-title-new"><i class="fas fa-flask me-2"></i> Substance Detection</h4>
+                                    <div class="p-3">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#teams" class="mini-team-card"><h6>CSM - 129</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>ZERO RISK RIDERS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>HACK HUSTLERS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>HACKTIVATORS</h6></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="category-card-new common-card">
+                                    <h4 class="category-title-new"><i class="fas fa-car me-2"></i> Vehicle Operations</h4>
+                                    <div class="p-3">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#teams" class="mini-team-card"><h6>ALPHA SQUAD</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SAFE DRIVE CREW</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SAFE PATH CREW</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>TEAM TECHNOPHILES</h6></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 col-lg-4">
+                                <div class="category-card-new common-card">
+                                    <h4 class="category-title-new"><i class="fas fa-mobile-alt me-2"></i> Driver Distraction</h4>
+                                    <div class="p-3">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#teams" class="mini-team-card"><h6>FOCUS DRIVEX</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>THE ACTIONEERS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>SAFE PATH INNOVATORS</h6></a></li>
+                                            <li><a href="#teams" class="mini-team-card"><h6>VISIONOPS</h6></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Event Schedule & Gallery Section -->
+            <section id="schedule" class="py-5" aria-label="Event Schedule and Gallery">
+                <h2 class="section-title animate-on-scroll">Event Schedule & Gallery</h2>
+                <p class="section-subtitle animate-on-scroll">Four days of innovation, collaboration, and problem-solving</p>
+                
+                <div class="gallery-day animate-on-scroll">
+                    <h4 class="gallery-title"><i class="fas fa-calendar-day me-2"></i>Day 1: Problem Understanding & Team Formation</h4>
+                    <div class="gallery-content">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="schedule-card h-100">
+                                    <div class="d-flex flex-column h-100">
+                                        <div>
+                                            <h5><i class="fas fa-sun me-2" style="color: var(--primary-orange);"></i>Morning Session</h5>
+                                            <span class="time-slot">9:00 AM - 12:00 PM</span>
+                                            <p class="mb-2">Inaugural & Briefing</p>
+                                            <ul class="list-unstyled mb-0">
+                                                <li><i class="fas fa-chevron-right me-2" style="color: var(--light-purple);"></i>Keynote on Road Safety & AI for Driver Monitoring</li>
+                                                <li><i class="fas fa-chevron-right me-2" style="color: var(--light-purple);"></i>Detailed explanation of APSRTC's 12 requirements</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-users me-2" style="color: var(--primary-purple);"></i>Team Formation</h5>
+                                            <p class="mb-0">4 Teams with 3 problem statements each</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row g-2">
+                                    <div class="col-6"><img src="./src/day1-1.jpg" alt="Opening ceremony" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="./src/day1-2.jpg" alt="Team formation" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Keynote" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Networking" class="img-fluid gallery-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-day animate-on-scroll">
+                    <h4 class="gallery-title"><i class="fas fa-calendar-day me-2"></i>Day 2: Module Development</h4>
+                    <div class="gallery-content">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="schedule-card h-100">
+                                    <div class="d-flex flex-column h-100">
+                                        <div>
+                                            <h5><i class="fas fa-sun me-2" style="color: var(--primary-orange);"></i>Morning Session</h5>
+                                            <p class="mb-0">Develop ML models for assigned problems</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-cloud-sun me-2" style="color: var(--primary-purple);"></i>Afternoon Session</h5>
+                                            <p class="mb-0">Parallel prototyping with datasets</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-moon me-2" style="color: #b19cd9;"></i>Evening Session</h5>
+                                            <p class="mb-0">Intra-team integration of models</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row g-2">
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Coding session" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1593642532744-d377ab507dc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Development" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Electronics" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Team collaboration" class="img-fluid gallery-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-day animate-on-scroll">
+                    <h4 class="gallery-title"><i class="fas fa-calendar-day me-2"></i>Day 3: System Integration & Dashboard Development</h4>
+                    <div class="gallery-content">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="schedule-card h-100">
+                                    <div class="d-flex flex-column h-100">
+                                        <div>
+                                            <h5><i class="fas fa-sun me-2" style="color: var(--primary-orange);"></i>Morning Session</h5>
+                                            <p class="mb-0">Merge outputs from all teams into a unified system</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-cloud-sun me-2" style="color: var(--primary-purple);"></i>Afternoon Session</h5>
+                                            <p class="mb-0">Develop dashboard and reporting tools</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-moon me-2" style="color: #b19cd9;"></i>Evening Session</h5>
+                                            <p class="mb-0">Vehicle simulation test</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row g-2">
+                                    <div class="col-6"><img src="./src/Day-3.jpg" alt="System Integration" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Dashboard" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Vehicle Test" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Bug Fixing" class="img-fluid gallery-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-day animate-on-scroll">
+                    <h4 class="gallery-title"><i class="fas fa-calendar-day me-2"></i>Day 4: Testing, Demo, and Final Presentation</h4>
+                    <div class="gallery-content">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="schedule-card h-100">
+                                    <div class="d-flex flex-column h-100">
+                                        <div>
+                                            <h5><i class="fas fa-sun me-2" style="color: var(--primary-orange);"></i>Morning Session</h5>
+                                            <p class="mb-0">End-to-end testing of all 12 alert modules</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-cloud-sun me-2" style="color: var(--primary-purple);"></i>Afternoon Session</h5>
+                                            <p class="mb-0">Prepare final pitch and demo videos</p>
+                                        </div>
+                                        <div class="mt-auto pt-3">
+                                            <h5><i class="fas fa-trophy me-2" style="color: gold;"></i>Evening Session</h5>
+                                            <p class="mb-0">Final Presentation & Prize Distribution</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row g-2">
+                                    <div class="col-6"><img src="./src/day4-1.jpg" alt="Testing" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="./src/day4-2.jpg" alt="Presentation" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src=".src//day4-3.jpg" alt="Judges" class="img-fluid gallery-img"></div>
+                                    <div class="col-6"><img src="./src/day4-4.jpg" alt="Prize" class="img-fluid gallery-img"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> DIET Library, DHANEKULA INSTITUTE OF ENGINEERING & TECHNOLOGY</p>
+                    <p><i class="fas fa-envelope me-2"></i> hackthon@diet.ac.in</p>
+                    <div class="mt-3">
+                        <a href="https://www.linkedin.com/in/dhanekula-institute-of-engineering-technology-tpo-794075100/?originalSubdomain=in" class="btn btn-outline-light btn-sm" aria-label="LinkedIn" ><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <h4>Student Coordinators</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-user-graduate me-2"></i> Miss P Mahitha (CSM)</li>
+                        <li><i class="fas fa-user-graduate me-2"></i> Mr T Krishna Kishore (ECE)</li>
+                        <li><i class="fas fa-user-graduate me-2"></i> Mr G Achyuth (ESE)</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <h4>Organized By</h4>
+                    <p>DIET-Technology Business Incubator</p>
+                    <p><i class="fas fa-user-tie me-2"></i> Dr Ravi Kadiyala, Principal</p>
+                    <p><i class="fas fa-user-tie me-2"></i> Dr M.VAMSHI KRISHNA, ECE HOD</p>
+                </div>
+            </div>
+            <div class="text-center mt-5 pt-3 border-top border-light border-opacity-25 animate-on-scroll">
+                <p class="mb-0">&copy; 2025 DIANEKULA INSTITUTE OF ENGINEERING & TECHNOLOGY. All rights reserved.</p>
+                <a href="https://diet.ac.in/">Dhanekula Website</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript for scroll animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            document.querySelectorAll('.animate-on-scroll').forEach(element => {
+                observer.observe(element);
+            });
+            
+            // JavaScript for the countdown timer
+            const countdownNumbers = document.querySelectorAll('.countdown-number');
+            // Setting the target date to the end of registration
+            const targetDate = new Date('2025-08-08T23:59:59').getTime();
+            
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const distance = targetDate - now;
+
+                if (distance < 0) {
+                    // Once registration is closed, the timer stops at 00
+                    countdownNumbers.forEach(number => number.textContent = '00');
+                    return;
+                }
+            }
+
+            // Initial call to set the state correctly on page load
+            updateCountdown();
+            // Update the countdown every minute
+            setInterval(updateCountdown, 1000 * 60);
+        });
+    </script>
+</body>
+</html>
